@@ -1,0 +1,81 @@
+
+#game{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.bingo{
+
+  font-size: 80px;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.bingo td{
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.keys{
+
+  margin: 20px;
+}
+
+.keys button{
+
+  display: block;
+  margin: auto;
+  border-radius: 0;
+}
+
+.bingoTable td{
+
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 500px){
+
+  .container{
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bingoTable td{
+
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+  }
+}
+
+@media only screen and (max-width: 400px){
+
+  .bingoTable td{
+
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+  }
+}
+
+@media only screen and (max-width: 340px){
+
+  .bingoTable td{
+
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+  }
+}
