@@ -1,4 +1,10 @@
 
+.container{
+
+  margin-top: -6px;
+}
+
+
 #game{
 
   display: flex;
@@ -51,12 +57,12 @@
   font-size: 50px;
 }
 
+.copyright{
+
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 500px){
-
-  .bingoTable td{
-
-    font-size: 36px;
-  }
 
   .container{
 
@@ -80,6 +86,7 @@
     width: 80px;
     height: 80px;
     border: 2px solid black;
+    font-size: 36px;
   }
 }
 
