@@ -37,6 +37,12 @@
   border-radius: 0;
 }
 
+.alert{
+
+  font-weight: bolder;
+  border-radius: 0;
+}
+
 .bingoTable td{
 
   width: 100px;
@@ -47,10 +53,26 @@
 
 @media only screen and (max-width: 500px){
 
+  .bingoTable td{
+
+    font-size: 36px;
+  }
+
   .container{
 
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .keys .btn-primary{
+
+    width: 30%;
+  }
+
+  .alert{
+
+    font-weight: bolder;
+    width: 60%;
   }
 
   .bingoTable td{
