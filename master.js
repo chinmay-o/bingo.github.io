@@ -26,6 +26,10 @@ function reset() {
   $(bingo).css("color", "black");
   num = 1;
   box = 0;
+  a = [];
+  b = [];
+  c = [];
+  d = [];
 }
 
 function start(condition) {
