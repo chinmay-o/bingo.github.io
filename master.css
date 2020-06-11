@@ -25,6 +25,11 @@
   margin: auto;
 }
 
+.row{
+
+  margin-left: 0;
+  margin-right: 0;
+}
 .bingo td{
 
   padding-left: 10px;
@@ -101,6 +106,11 @@
 }
 
 @media only screen and (max-width: 340px){
+
+  .bingo{
+
+    font-size: 60px;
+  }
 
   .bingoTable td{
 
