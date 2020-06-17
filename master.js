@@ -46,6 +46,8 @@ function start(condition) {
         $(this).css("color", "white")
         winA();
         winB();
+        winC();
+        winD();
         winAlert()
       });
     }
@@ -65,7 +67,6 @@ function bingoBox() {
 function winA() {
 
   x = 0;
-  y = 0;
 
   while(x < 20){
 
@@ -80,6 +81,11 @@ function winA() {
 
     x += 5;
   }
+}
+
+function winB() {
+
+  y = 0;
 
   while(y < 5){
 
@@ -94,13 +100,11 @@ function winA() {
 
     y += 1;
   }
-
 }
 
-function winB() {
+function winC() {
 
   x = 0;
-  y = 4;
 
   if(x === 0){
 
@@ -113,6 +117,11 @@ function winB() {
       }
     }
   }
+}
+
+function winD() {
+
+  y = 4;
 
   if(y === 4){
 
