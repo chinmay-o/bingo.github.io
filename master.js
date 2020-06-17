@@ -68,7 +68,7 @@ function winA() {
 
   x = 0;
 
-  while(x < 20){
+  while(x < 21){
 
     if ( $(cell[x]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+1]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+2]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+3]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+4]).css("background-color") === "rgb(0, 0, 0)"){
 
