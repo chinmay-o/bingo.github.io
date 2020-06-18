@@ -108,7 +108,7 @@ function winC() {
 
   if(x === 0){
 
-    if ( $(cell[x]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+6]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+12]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+18]).css("background-color") === "rgb(0, 0, 0)" && $(cell[x+24]).css("background-color") === "rgb(0, 0, 0)"){
+    if ( $(cell[x]).css("background-color") === "rgb(0, 0, 0)" && $(cell[6]).css("background-color") === "rgb(0, 0, 0)" && $(cell[12]).css("background-color") === "rgb(0, 0, 0)" && $(cell[18]).css("background-color") === "rgb(0, 0, 0)" && $(cell[24]).css("background-color") === "rgb(0, 0, 0)"){
 
       if (c.indexOf(x) === -1) {
 
@@ -123,9 +123,9 @@ function winD() {
 
   y = 4;
 
-  if(y === 4){
+  if (y === 4){
 
-    if ( $(cell[y]).css("background-color") === "rgb(0, 0, 0)" && $(cell[y+8]).css("background-color") === "rgb(0, 0, 0)" && $(cell[y+12]).css("background-color") === "rgb(0, 0, 0)" && $(cell[y+16]).css("background-color") === "rgb(0, 0, 0)" && $(cell[y+20]).css("background-color") === "rgb(0, 0, 0)"){
+    if ( $(cell[y]).css("background-color") === "rgb(0, 0, 0)" && $(cell[8]).css("background-color") === "rgb(0, 0, 0)" && $(cell[12]).css("background-color") === "rgb(0, 0, 0)" && $(cell[16]).css("background-color") === "rgb(0, 0, 0)" && $(cell[20]).css("background-color") === "rgb(0, 0, 0)"){
 
       if (d.indexOf(y) === -1) {
 
