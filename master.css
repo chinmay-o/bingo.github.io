@@ -39,13 +39,8 @@
 .keys{
 
   display: block;
-  margin: 10px;
+  margin: 30px;
   margin-top: 10px;
-}
-
-.keys .btn-primary{
-
-  border-radius: 0;
 }
 
 .alert{
@@ -62,9 +57,20 @@
   font-size: 50px;
 }
 
+.modal-body{
+
+  text-align: justify;
+  font-weight: bold;
+}
+
 .copyright{
 
   margin-top: 10px;
+}
+
+.copyright img{
+
+  width: 24%;
 }
 
 @media only screen and (max-width: 500px){
@@ -92,6 +98,11 @@
     height: 80px;
     border: 2px solid black;
     font-size: 36px;
+  }
+
+  .copyright img{
+
+    width: 40%;
   }
 }
 
